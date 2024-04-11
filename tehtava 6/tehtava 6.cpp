@@ -83,7 +83,7 @@ int main()
 
     for (int i = 0; i < tasks.size(); i++)
     {
-        futures.push_back(std::async(tasks[i]->perform()));
+        futures.push_back(std::async(&Game_Task::perform, tasks[i]));
     }
 
 
