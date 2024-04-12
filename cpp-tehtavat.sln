@@ -5,27 +5,21 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{A880B16B-B130-4FE4-9488-41217933B2F3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 1", "tehtava 1\tehtava 1.vcxproj", "{F43DAC7D-36C4-4D85-A6D8-C30C58B8A8AB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 01", "tehtava 1\tehtava 1.vcxproj", "{F43DAC7D-36C4-4D85-A6D8-C30C58B8A8AB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 2", "tehtava 2\tehtava 2.vcxproj", "{4A61585E-29CF-4E56-AFCB-63C73FF7488C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 02", "tehtava 2\tehtava 2.vcxproj", "{4A61585E-29CF-4E56-AFCB-63C73FF7488C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 3", "tehtava 3\tehtava 3.vcxproj", "{8022DC14-2489-47FB-814B-79D01FF13474}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 03", "tehtava 3\tehtava 3.vcxproj", "{8022DC14-2489-47FB-814B-79D01FF13474}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 4", "tehtava4\tehtava4.vcxproj", "{645A9E59-F10A-4126-A331-4A61259522F1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 04", "tehtava4\tehtava4.vcxproj", "{645A9E59-F10A-4126-A331-4A61259522F1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 5", "tehtava 5\tehtava 5.vcxproj", "{EC9A6E19-A521-4F84-B753-30E8BF02D257}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 05", "tehtava 5\tehtava 5.vcxproj", "{EC9A6E19-A521-4F84-B753-30E8BF02D257}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 6", "tehtava 6\tehtava 6.vcxproj", "{653EF399-ED9B-48E2-87AB-5FDE389D0A33}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 06", "tehtava 6\tehtava 6.vcxproj", "{653EF399-ED9B-48E2-87AB-5FDE389D0A33}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 7", "tehtava 7\tehtava 7.vcxproj", "{FFD82FCB-85EB-4024-A51C-ED7A8D5EDAAF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 07", "tehtava 7\tehtava 7.vcxproj", "{FFD82FCB-85EB-4024-A51C-ED7A8D5EDAAF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 8", "tehtava 8\tehtava 8.vcxproj", "{35E52042-BF8F-4142-9E4A-5CF7DF559E40}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 9", "tehtava 9\tehtava 9.vcxproj", "{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 10", "tehtava 10\tehtava 10.vcxproj", "{CCDBE58E-E6D6-443B-8E72-6B720C949607}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 11", "tehtava 11\tehtava 11.vcxproj", "{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 08", "tehtava 8\tehtava 8.vcxproj", "{35E52042-BF8F-4142-9E4A-5CF7DF559E40}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tehtava 12", "tehtava 12\tehtava 12.vcxproj", "{5945BA01-DEB5-4575-99CB-4346FC23700F}"
 EndProject
@@ -111,30 +105,6 @@ Global
 		{35E52042-BF8F-4142-9E4A-5CF7DF559E40}.Release|x64.Build.0 = Release|x64
 		{35E52042-BF8F-4142-9E4A-5CF7DF559E40}.Release|x86.ActiveCfg = Release|Win32
 		{35E52042-BF8F-4142-9E4A-5CF7DF559E40}.Release|x86.Build.0 = Release|Win32
-		{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}.Debug|x64.ActiveCfg = Debug|x64
-		{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}.Debug|x64.Build.0 = Debug|x64
-		{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}.Debug|x86.ActiveCfg = Debug|Win32
-		{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}.Debug|x86.Build.0 = Debug|Win32
-		{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}.Release|x64.ActiveCfg = Release|x64
-		{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}.Release|x64.Build.0 = Release|x64
-		{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}.Release|x86.ActiveCfg = Release|Win32
-		{FB4A7F00-30C8-4F4D-9CBE-8F23FC587142}.Release|x86.Build.0 = Release|Win32
-		{CCDBE58E-E6D6-443B-8E72-6B720C949607}.Debug|x64.ActiveCfg = Debug|x64
-		{CCDBE58E-E6D6-443B-8E72-6B720C949607}.Debug|x64.Build.0 = Debug|x64
-		{CCDBE58E-E6D6-443B-8E72-6B720C949607}.Debug|x86.ActiveCfg = Debug|Win32
-		{CCDBE58E-E6D6-443B-8E72-6B720C949607}.Debug|x86.Build.0 = Debug|Win32
-		{CCDBE58E-E6D6-443B-8E72-6B720C949607}.Release|x64.ActiveCfg = Release|x64
-		{CCDBE58E-E6D6-443B-8E72-6B720C949607}.Release|x64.Build.0 = Release|x64
-		{CCDBE58E-E6D6-443B-8E72-6B720C949607}.Release|x86.ActiveCfg = Release|Win32
-		{CCDBE58E-E6D6-443B-8E72-6B720C949607}.Release|x86.Build.0 = Release|Win32
-		{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}.Debug|x64.ActiveCfg = Debug|x64
-		{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}.Debug|x64.Build.0 = Debug|x64
-		{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}.Debug|x86.ActiveCfg = Debug|Win32
-		{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}.Debug|x86.Build.0 = Debug|Win32
-		{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}.Release|x64.ActiveCfg = Release|x64
-		{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}.Release|x64.Build.0 = Release|x64
-		{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}.Release|x86.ActiveCfg = Release|Win32
-		{D2A4BC68-BE5F-4FA6-87FF-5F1EB9B07CCE}.Release|x86.Build.0 = Release|Win32
 		{5945BA01-DEB5-4575-99CB-4346FC23700F}.Debug|x64.ActiveCfg = Debug|x64
 		{5945BA01-DEB5-4575-99CB-4346FC23700F}.Debug|x64.Build.0 = Debug|x64
 		{5945BA01-DEB5-4575-99CB-4346FC23700F}.Debug|x86.ActiveCfg = Debug|Win32
