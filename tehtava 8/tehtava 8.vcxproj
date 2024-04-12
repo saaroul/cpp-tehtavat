@@ -128,11 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Log_Ptr.cpp" />
     <ClCompile Include="tehtava 8.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Log_Ptr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

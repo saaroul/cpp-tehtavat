@@ -18,13 +18,5 @@
     <ClCompile Include="tehtava 8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Log_Ptr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Log_Ptr.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
