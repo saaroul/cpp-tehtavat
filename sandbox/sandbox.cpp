@@ -1,20 +1,48 @@
-// sandbox.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
 
-#include <iostream>
+  Harjoitus 1
+
+  Optimoi sini-funktion käsittely. Älä muuta kääntäjäoptioita.
+  Vertaa alkuperäistä ja optimoitua versiota:
+
+  - kuinka paljon enemmän muistia optimoitu versio kuluttaa?
+  - kuinka paljon nopeammin optimoitu versio toimii?
+
+  Käännös: gcc sin.c -lm -o sin
+
+*/
+
+#include <stdio.h>
+#include <time.h>
+#include <math.h>
+
+#define DEG_TO_RAD(A) (A / 57.296)
+#define ITERATIONS 1'000'000
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	clock_t t1, t2;
+	unsigned i, a;
+	double val;
+	double sin_table[360];
+	
+	for (a = 0; a < 360; ++a)
+	{
+		sin_table[a] = sin(DEG_TO_RAD(a));
+	}
+
+	t1 = clock();
+	for (i = 0; i < ITERATIONS; ++i)
+	{
+		for (a = 0; a < 360; ++a)
+		{
+			val = sin_table[a];
+			//val = sin(DEG_TO_RAD(a));
+		}
+	}
+	t2 = clock();
+	printf("%.1fs\n", (t2 - t1) / (float)CLOCKS_PER_SEC);
+
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
