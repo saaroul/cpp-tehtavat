@@ -7,6 +7,8 @@
 #include <string>
 #include <iomanip>
 #include <iostream>
+#include <thread>
+#include <mutex>
 
 std::string timestamp()
 {
@@ -154,6 +156,7 @@ int main()
 		r = p;
 		r->tervehdi();
 	}
-	p->tervehdi();	
+	p->tervehdi();
+
 }
 
